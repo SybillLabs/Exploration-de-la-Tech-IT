@@ -131,6 +131,15 @@ Le principe est de déplacer la sécurité en amont du cycle de développement.
 ```
 👉 L’idée : trouver les failles **avant** la mise en production.
 
+🔹 **_Avantages_**
+- Moins de bugs en prod, coûts de correction réduits.
+- Feedback rapide pour les devs (on corrige quand c’est encore frais).
+- Culture sécurité diffusée dans l’équipe.
+
+🔹 **_Limites / attention_**
+- Le shift left **n’élimine pas** la nécessité du monitoring en production : certaines failles (config runtime, attaques ciblées) ne sont visibles qu’en prod.
+- Nécessite automatisation et formation : ajout d’outils sans processus = faux sentiment de sécurité.
+
 ---
 
 ## 🛠️ Les outils du DevSecOps
