@@ -76,3 +76,166 @@ Il offre **élasticité, rapidité et scalabilité**, mais introduit aussi de no
   - Exemple : alerte si plusieurs échecs de connexion proviennent d’une IP étrangère.
 
 👉 En résumé : le Cloud n’est pas « moins sécurisé », mais il nécessite des pratiques strictes pour éviter erreurs de configuration et attaques.
+
+### 🛡️ DevSecOps
+Le DevSecOps est une **évolution naturelle du DevOps**, qui intègre la sécurité dès le début du cycle de vie logiciel.
+- **Sécurisation des déploiements**
+  - Automatisation des scans de vulnérabilités dans les pipelines
+  - Détection proactive des failles avant la mise en production
+- **Surveillance et conformité**
+  - Monitoring temps réel pour prévenir les menaces
+  - Respect des normes ISO 27001, RGPD, NIST, PCI-DSS…
+- **Collaboration Dev, Ops et Sec**
+  - Approche _Shift Left_ : les tests de sécurité sont intégrés dès le développement
+  - Culture partagée : la sécurité n’est plus seulement l’affaire des équipes « Sec », mais de tous
+
+#### ⬅️ Le Shift Left
+Le principe est de déplacer la sécurité en amont du cycle de développement.
+```
+         ┌──────────────┐
+         │   Planifier  │
+         │ (requirements│
+         │   & design)  │
+         └───────┬──────┘
+                 │
+                 ▼
+        ┌──────────────────┐
+        │   Développer     │ ← Analyse statique (SAST),
+        │   (coding)       │    revues de code, secrets scan
+        └───────┬──────────┘
+                │
+                ▼
+       ┌─────────────────────┐
+       │    Tester tôt       │ ← Tests sécurité intégrés :
+       │   (build, CI/CD)    │    DAST, scans dépendances
+       └────────┬────────────┘
+                │
+                ▼
+     ┌────────────────────────┐
+     │ Déployer & Surveiller  │ ← Détection d’anomalies,
+     │   (prod monitoring)    │    logs, SIEM
+     └────────────────────────┘
+```
+👉 L’idée : trouver les failles **avant** la mise en production.
+
+---
+
+## 🛠️ Les outils du DevSecOps
+🔹 **_Définitions clés_**
+- **SAST (Static Application Security Testing)**  
+  → Analyse statique du code source pour détecter les failles avant exécution.  
+  Exemples : SonarQube, Snyk Code, Checkmarx  
+- **DAST (Dynamic Application Security Testing)**  
+  → Test de l’application en exécution pour simuler des attaques.  
+  Exemples : OWASP ZAP, Burp Suite, AppScan  
+- **Container Security**  
+  → Sécurisation des images Docker, conteneurs et clusters Kubernetes.  
+  Exemples : Trivy, Falco, Aqua Security  
+- **IaC Security (Infrastructure as Code)** 
+  → Analyse des scripts d’infrastructure (Terraform, Ansible) pour éviter les configs vulnérables.
+  Exemples : Checkov, Terraform Sentinel  
+- **Monitoring & SIEM (Security Information and Event Management)**
+  → Centralisation et analyse des logs pour détecter les menaces.
+  Exemples : ELK, Splunk, Wazuh
+
+🔹 **_Outils choisis_**
+- **SonarQube (SAST)**
+  - Analyse statique de code source (SAST) pour détecter bugs, vulnérabilités et code smells
+  - Support multi-langages (Java, Python, JavaScript, etc.)
+  - Intégration native avec GitLab CI/CD, Jenkins, GitHub Actions
+- **OWASP ZAP (DAST)**
+  - Outil de tests d’intrusion automatisés (DAST) pour les applications web
+  - Simule des attaques courantes (SQLi, XSS, CSRF…)
+  - Intégration possible dans un pipeline CI/CD pour scanner à chaque build
+
+---
+
+## ⚙️ Exemple d’une pipeline DevSecOps
+```
+                ┌─────────────┐
+                │   Code &    │
+                │  Commit     │
+                └──────┬──────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Analyse statique │  ← (SAST : SonarQube, Snyk…)
+              │   du code        │
+              └──────┬──────────┘
+                     │
+                     ▼
+            ┌──────────────────┐
+            │  Build & Test    │
+            │ (Unit tests)     │
+            └──────┬───────────┘
+                   │
+                   ▼
+          ┌─────────────────────┐
+          │  Analyse dynamique  │  ← (DAST : OWASP ZAP, Burp…)
+          │   Sécurité App      │
+          └────────┬────────────┘
+                   │
+                   ▼
+        ┌───────────────────────┐
+        │  Scan des dépendances │ ← (Librairies, packages)
+        │  et des conteneurs    │ ← (Trivy, Clair, AquaSec)
+        └──────────┬────────────┘
+                   │
+                   ▼
+          ┌───────────────────┐
+          │   Déploiement     │ ← (CI/CD vers Cloud / K8s)
+          │   sécurisé        │
+          └────────┬──────────┘
+                   │
+                   ▼
+        ┌────────────────────────┐
+        │   Monitoring & Logs    │ ← (SIEM : Wazuh, Splunk, ELK)
+        │   Alertes sécurité     │
+        └────────────────────────┘
+```
+
+---
+
+## 📈 Tendances actuelles
+- **Adoption croissante du Shift Left** → sécurité intégrée dès le développement
+- **Architecture Zero Trust** → « Ne jamais faire confiance, toujours vérifier »
+- **Sécurité des conteneurs & Kubernetes** → clusters très ciblés par les attaques
+- **Automatisation & IA** → détection et correction automatique des vulnérabilités simples
+
+---
+
+## 🔍 Analyse critique
+- ✅ **Adoption en croissance** : DevSecOps devient un standard dans les grandes entreprises.
+- ❌ **Maturité encore faible** : beaucoup d’équipes intègrent des outils mais sans réelle culture sécurité partagée.
+- ⚠️ **Défi principal** : l’humain → former les développeurs et impliquer le management.
+- 🎯 **Tendance future** : automatisation (IA, bots de correction, pipelines intelligents) et sécurité Cloud-native.
+
+---
+
+## 📚 Sources
+- Normes
+  - [ISO 27001](https://www.iso.org/fr/standard/27001)
+  - [NIST](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958795)
+  - [RGPD](https://www.economie.gouv.fr/entreprises/reglement-general-protection-donnees-rgpd#:~:text=conformer%20au%20RGPD-,Le%20RGPD%2C%20qu%27est-ce%20que%20c%27est,application%20le%2025%20mai%202018)
+- Outils
+  - [SonarQube](https://www.sonarsource.com/products/sonarqube/)
+  - [OWASP ZAP](https://www.zaproxy.org/)
+  - [Top outils DevSecOps – Gologic](https://www.gologic.ca/top-10-outils-devsecops/)
+  - [Integrating OWASP ZAP – BlueGoatCyber](https://bluegoatcyber.com/blog/integrating-owasp-zap-in-devsecops/)
+- Tendances
+  - [Tendances DevSecOps – YourSky](https://yoursky.blue/fr/articles/tendances-devsecops)
+  - [Shift Left vs Shift Right – Red Hat](https://www.redhat.com/fr/topics/devops/shift-left-vs-shift-right)
+  - [Zero Trust – Microsoft](https://learn.microsoft.com/en-us/security/zero-trust/develop/secure-devops-environments-zero-trust)
+  - [Cloud Security & Shift Left – Palo Alto](https://www.paloaltonetworks.com/resources/ebooks/cloud-security-spotlight-how-organizations-adopt-devsecops-and-shift-left-security)
+
+---
+
+## 📖 Glossaire pour débutants IT
+- **Pipeline CI/CD** : une « chaîne de montage » automatisée qui construit, teste et déploie un logiciel.
+- **Artefact** : le fichier final généré par un build (ex. un exécutable, une image Docker).
+- **Registry**: un dépôt où sont stockées les images Docker (ex. DockerHub, GitLab Registry).
+- **Rollback** : revenir à une version précédente d’une appli après un échec de mise à jour.
+- **Orchestrateur (Kubernetes)** : un « chef d’orchestre » qui gère automatiquement plusieurs conteneurs (démarrage, arrêt, redémarrage, mise à jour).
+- **Helm** : un « gestionnaire de recettes » pour Kubernetes, qui simplifie le déploiement d’applications complexes.
+- **Logs** : fichiers qui enregistrent tout ce qui se passe (erreurs, accès, alertes).
+- **SIEM** : un système qui collecte et analyse ces logs pour détecter des attaques.
