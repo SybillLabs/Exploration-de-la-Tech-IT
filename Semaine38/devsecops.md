@@ -8,6 +8,9 @@ Aujourd’hui, j’ai souhaité :
 - l’**enrichir** avec des explications plus détaillées, des schémas et des définitions,
 - et l’**ajouter dans mon dépôt GitHub _Exploration de la Tech IT_**, afin de garder une trace écrite et évolutive de mes apprentissages.
 
+> ℹ️ **Note** : Ce document est une veille technologique réalisée dans le cadre de ma formation.  
+> Il n’a pas vocation à être une documentation officielle, mais une synthèse accessible pour découvrir le DevSecOps.
+
 ---
 
 ## DevOps vs DevSecOps
