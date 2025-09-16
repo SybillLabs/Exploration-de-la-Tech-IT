@@ -60,8 +60,8 @@ Dans les environnements modernes, les applications sont souvent conteneurisées 
 🔹 **_DevSecOps dans la CI/CD_**
 
 👉 La sécurité est intégrée à chaque étape :
-- Analyse statique (SAST) dès le build
-- Tests dynamiques (DAST) avant déploiement
+- Analyse statique (Static Application Security Testing) dès le build
+- Tests dynamiques (Dynamic Application Security Testing) avant déploiement
 - Scan d’images Docker avant push vers le registry
 - Monitoring & alertes une fois en production (logs, SIEM, sécurité Kubernetes)
 
