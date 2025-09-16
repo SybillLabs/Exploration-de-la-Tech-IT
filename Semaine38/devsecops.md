@@ -1,6 +1,16 @@
 # 🌐 Le monde du DevSecOps
 
-## 1. DevOps vs DevSecOps
+## 📝 Contexte
+Cette veille technologique a été réalisée durant ma **formation bootcamp de 5 mois (septembre 2024 à février 2025)** dans le cadre de mon diplôme TSSR.  
+À l’époque, j’avais uniquement préparé une **présentation PowerPoint** destinée à la classe (fichier disponible dans le dossier `Ressources`).
+
+Aujourd’hui, j’ai souhaité :
+- l’**enrichir** avec des explications plus détaillées, des schémas et des définitions,
+- et l’**ajouter dans mon dépôt GitHub _Exploration de la Tech IT_**, afin de garder une trace écrite et évolutive de mes apprentissages.
+
+---
+
+## DevOps vs DevSecOps
 ### 🔄 Le DevOps
 Les missions du DevOps sont principalement liées à l'automatisation, la fiabilité et la gestion des infrastructures :
 - **Automatisation et déploiement**:
