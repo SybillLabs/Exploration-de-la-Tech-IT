@@ -43,7 +43,7 @@ Il permet d’automatiser le cycle de vie logiciel du **développement jusqu’�
   - Mise en production automatisée avec rollback possible en cas de problème.
   - Exemple : GitLab CI déploie automatiquement une nouvelle version de l’application.
 
-🔹 **_Livraison avec Kubernetes & Helm_**
+🔹 **_Livraison avec Kubernetes & Helm_**  
 Dans les environnements modernes, les applications sont souvent conteneurisées avec **Docker** et orchestrées par **Kubernetes (K8s)**.
 - **Kubernetes (K8s)**
   - Orchestrateur de conteneurs qui gère le déploiement, la scalabilité et la résilience des services.
