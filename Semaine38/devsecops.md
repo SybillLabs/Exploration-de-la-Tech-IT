@@ -249,3 +249,10 @@ Le principe est de déplacer la sécurité en amont du cycle de développement.
 - **Helm** : un « gestionnaire de recettes » pour Kubernetes, qui simplifie le déploiement d’applications complexes.
 - **Logs** : fichiers qui enregistrent tout ce qui se passe (erreurs, accès, alertes).
 - **SIEM** : un système qui collecte et analyse ces logs pour détecter des attaques.
+
+---
+
+## 📝 Conclusion personnelle
+Cette veille technologique m’a permis de découvrir les fondements du DevSecOps et de comprendre comment la sécurité peut être intégrée dans chaque étape du cycle de développement logiciel.  
+Je suis arrivé sur ce sujet un peu par hasard : j'aime beaucoup le scripting Bash, mon professeur m’a parlé du DevOps, et mes recherches m’ont conduit au DevSecOps.  
+C’est cette découverte que j’ai choisi de partager lors de ma présentation, et que je documente aujourd’hui ici.
