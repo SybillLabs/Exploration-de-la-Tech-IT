@@ -8,12 +8,12 @@ Je fais de la veille **exploratrice** plutôt que de la veille d'actualité car,
 - Construire une base de connaissances pérenne et organisée.  
 - Partager mes découvertes avec d’autres passionnés de la Tech IT (LinkedIn, échanges, etc.).  
 
-## Les thèmes abordés pour cette exploration
+## 🧭 Les thèmes au programme de cette exploration
 Chaque semaine aura son thème, parmi :  
-- 🛡️ **Sécurité** de l’infrastructure système et réseau  
+- 🛡️ **Sécurité de l’infrastructure système et réseau**  
 - 🤖 **IA pratique**  
 - 🐧 **Le monde de Linux**  
-- ☁️ **Prospect et tendance**  
+- 🪟 **Le monde de Windows**  
 
 ## 📌 Méthodologie & Sources
 Pour chaque thème, je m’appuie sur :  
