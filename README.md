@@ -17,7 +17,7 @@ Chaque semaine aura son thème, parmi :
 
 ## 📌 Méthodologie & Sources
 Pour chaque thème, je m’appuie sur :  
-- Documentation officielle (Linux, outils DevOps, etc.)  
+- Documentation officielle
 - Blogs techniques et articles spécialisés  
 - Chaînes YouTube & conférences  
 - Retours d’expérience et cas pratiques  
