@@ -1,48 +1,52 @@
 # 🧑‍💻 Exploration de la Tech IT
 
-Je fais de la veille **exploratrice** plutôt que de la veille d'actualité car, étant junior dans le monde de la **Tech IT**, j’ai besoin d’apprendre des techniques ou outils qu’ils soient récents (actualité) ou plus anciens (exploratrice).  
+## 📝 Contexte 
+Le but de ce dépôt est d'établir une habitude de **veille technologique hebdomadaire**, qui me permettra de :
+- Découvrir et tester de nouveaux outils
+- Documenter ce que j'ai appris à la fois en français et en anglais
+- Partager les ressources avec quiconque intérressé dans les systèmes IT, les réseaux, et les nouvelles technologies
 
-## 🎯 Objectifs
-- Développer mes compétences en administration système, sécurité et DevOps.  
-- Découvrir et tester des outils utiles dans un contexte professionnel.  
-- Construire une base de connaissances pérenne et organisée.  
-- Partager mes découvertes avec d’autres passionnés de la Tech IT (LinkedIn, échanges, etc.).  
+## 🇬🇧 Version anglaise
+La version anglais est disponible [ici](README.eng.md.md).
 
-## 🧭 Les thèmes au programme de cette exploration
-Chaque semaine aura son thème, parmi :  
-- 🛡️ **Sécurité de l’infrastructure système et réseau**  
-- 🤖 **IA pratique**  
+# 🎯 Thèmes
+Cette veille technologique est organisée autour de quatre sujets principaux :
+- 🛡️ **Sécurité de l'infrastructure système et réseau**  
+- 🤖 **Le monde de l'IA**  
 - 🐧 **Le monde de Linux**  
-- 🪟 **Le monde de Windows**  
-
-## 📌 Méthodologie & Sources
-Pour chaque thème, je m’appuie sur :  
-- Documentation officielle
-- Blogs techniques et articles spécialisés  
-- Chaînes YouTube & conférences  
-- Retours d’expérience et cas pratiques  
+- 🪟 **Le monde de Windows & Microsoft** 
 
 ## 🗂️ Organisation du dépôt
+Ce dépôt sera organisé comme suit :
+- **Archives/** : Stocke les sujets des années précédentes
+- **WXX-NameOfTheTechWatch/** : Dossier hebdomadaire de l'année en cours, avec dedans :
+  - **Ressources/**: Contient du contenu additionnel
+  - **index.fr.md**: Document hebdomadaire en français
+  - **index.eng.md**: Document hebdomadaire en anglais
+
+Pour une meilleur lisibilité, voici un visuel de la structure du dépôt :
+```text
+/
+├── README.md
+├── README.fr.md
+├── Archives
+│   └── 2025
+│       └── WXX-Name
+│           ├── Ressources
+│           │   └── Files
+│           ├── index.fr.md
+│           └── index.eng.md
+├── WXX-Name
+│   ├── Ressources
+│   │   └── Files
+│   ├── index.fr.md
+│   └── index.eng.md
+└── WXX-Name
+    ├── Ressources
+    │   └── Files
+    ├── index.fr.md
+    └── index.eng.md
 ```
-README.md  
-|  
-+--/Archives  
-| +--/2025  
-| +--/2026  
-+--/Semaine1  
-| +--nomdelaveille.md  
-| +--/Ressources  
-+--/Semaine2  
-| +--nomdelaveille.md  
-| +--/Ressources
-```
 
-📌 Lorsqu’une année sera terminée, les veilles technologiques correspondantes seront déplacées dans les **archives**.  
-
-## 🏗️ Cadre et contexte du projet
-J’ai décidé de créer ce dépôt pour sauvegarder toutes mes recherches, les structurer et pouvoir les partager facilement (notamment sur mon profil LinkedIn).  
-
-## 🗂️ Convention de nommage
-- `SemaineX/nomdelaveille.md` → notes de veille pour la semaine  
-- `SemaineX/Ressources/` → liens, PDF, images ou scripts associés  
-- `Archives/` → regroupe les années passées  
+## 📜 License  
+Ce dépôt est publié sous la [licence MIT](LICENSE).
