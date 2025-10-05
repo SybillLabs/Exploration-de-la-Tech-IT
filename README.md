@@ -19,7 +19,7 @@ Cette veille technologique est organisée autour de quatre sujets principaux :
 ## 🗂️ Organisation du dépôt
 Ce dépôt sera organisé comme suit :
 - **Archives/** : Stocke les sujets des années précédentes
-- **WXX-NomDeLaVeilleTechno/** : Dossier hebdomadaire de l'année en cours, avec dedans :
+- **N°X-NomDeLaVeilleTechno/** : Dossier hebdomadaire de l'année en cours, avec dedans :
   - **Ressources/**: Contient du contenu additionnel
   - **index.fr.md**: Document hebdomadaire en français
   - **index.eng.md**: Document hebdomadaire en anglais
@@ -31,17 +31,17 @@ Pour une meilleur lisibilité, voici un visuel de la structure du dépôt :
 ├── README.fr.md
 ├── Archives
 │   └── 2025
-│       └── WXX-Name
+│       └── N°X-Name
 │           ├── Ressources
 │           │   └── Files
 │           ├── index.fr.md
 │           └── index.eng.md
-├── WXX-Name
+├── N°X-Name
 │   ├── Ressources
 │   │   └── Files
 │   ├── index.fr.md
 │   └── index.eng.md
-└── WXX-Name
+└── N°X-Name
     ├── Ressources
     │   └── Files
     ├── index.fr.md
