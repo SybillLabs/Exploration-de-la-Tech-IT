@@ -1,5 +1,7 @@
 # 🛡️ Sécurité de l'infrastructure système et réseau : le DevSecOps
 
+![Statut](https://img.shields.io/badge/Statut-Termin%C3%A9e-green?style=flat-square&logo=github)
+
 ## 📝 Contexte
 Cette veille technologique a été réalisée durant ma **formation bootcamp de 5 mois : Technicien Supérieur Système et Réseau**. 
 Lors de cette formation, j'avais préparé une présentation **Canva** destinée à ma classe (fichier disponible dans [Ressources](/W38-DevSecOps/Ressources/LeMondeDuDevSecOps.pdf)).  
@@ -9,9 +11,6 @@ Aujourd'hui, j'ai souhaité :
 - **l'ajouter** dans mon dépôt GitHub *Exploration de la Tech IT*, afin de garder une trace écrite et évolutive de mes apprentissages.
 
 > ℹ️ **Note** : Ce document est une veille technologique réalisée dans le cadre de ma formation. Il n'a pas vocation à être une documentation officielle, mais une synthèse accessible pour découvrir le **DevSecOps**.
-
-## 🇬🇧 Version anglaise
-La version anglaise est disponible [ici](/W38-DevSecOps/index.eng.md).
 
 ## ⚙️🛡️ DevOps vs DevSecOps
 ### ⚙️ DevOps
@@ -254,3 +253,7 @@ Je suis arrivé sur ce sujet un peu par hasard : j'aime beaucoup le scripting Ba
 C’est cette découverte que j’ai choisi de partager lors de ma présentation, et que je documente aujourd’hui ici.
 
 > ⚠️ Note : Je n’ai pas encore pratiqué directement les outils et concepts cités (SAST, DAST, Kubernetes, Helm, SIEM), mais cette veille m’a permis de les comprendre théoriquement et de les rendre accessibles à d’autres débutants IT.
+
+---
+
+[![README](https://img.shields.io/badge/Back%20to-Exploration%20de%20la%20Tech%20IT-blue?style=social&logo=github)](/README.md)
