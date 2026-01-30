@@ -24,35 +24,38 @@ Cette veille technologique est organisée autour de quatre sujets principaux :
 
 ## 🗂️ Organisation du dépôt
 Ce dépôt sera organisé comme suit :
-- **Archives/** : Stocke les sujets des années précédentes
+- **Archives/** : Stocke les sujets précédentes
 - **N°X-NomDeLaVeilleTechno/** : Dossier hebdomadaire de l'année en cours, avec dedans :
   - **Ressources/**: Contient du contenu additionnel
-  - **index.fr.md**: Document hebdomadaire en français
-  - **index.eng.md**: Document hebdomadaire en anglais
+  - **index.md**: Document hebdomadaire
 
 Pour une meilleur lisibilité, voici un visuel de la structure du dépôt :
 ```text
 /
 ├── README.md
-├── README.fr.md
 ├── Archives
-│   └── 2025
-│       └── N°X-Name
-│           ├── Ressources
-│           │   └── Files
-│           ├── index.fr.md
-│           └── index.eng.md
+│   └── N°X-Name
+│       ├── Ressources
+│       │   └── Files
+│       └── index.md
 ├── N°X-Name
 │   ├── Ressources
 │   │   └── Files
-│   ├── index.fr.md
-│   └── index.eng.md
+│   └── index.md
 └── N°X-Name
     ├── Ressources
     │   └── Files
-    ├── index.fr.md
-    └── index.eng.md
+    └── index.md
 ```
 
-## 📜 License  
-Ce dépôt est publié sous la [licence MIT](LICENSE).
+## ☰ Sommaire
+Cette section recense les dernières veilles technologiques pour chaque thèmes.
+
+### 🛡️ Sécurité de l'infrastructure système et réseau 
+[![DevSecOps](https://img.shields.io/badge/DevSecOps-blue?style=social&logo=github)](/01-DevSecOps/index.md) 
+
+### 🤖 Le monde de l'IA
+
+### 🐧 Le monde de Linux
+
+### 🪟 Le monde de Windows
