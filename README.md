@@ -15,13 +15,6 @@ Le but de ce dépôt est d'établir une habitude de **veille technologique hebdo
 - Documenter ce que j'ai appris à la fois en français et en anglais
 - Partager les ressources avec quiconque intérressé dans les systèmes IT, les réseaux, et les nouvelles technologies
 
-## 🎯 Thèmes
-Cette veille technologique est organisée autour de quatre sujets principaux :
-- 🛡️ **Sécurité de l'infrastructure système et réseau**  
-- 🤖 **Le monde de l'IA**  
-- 🐧 **Le monde de Linux**  
-- 🪟 **Le monde de Windows** 
-
 ## 🗂️ Organisation du dépôt
 Ce dépôt sera organisé comme suit :
 - **Archives/** : Stocke les sujets précédentes
