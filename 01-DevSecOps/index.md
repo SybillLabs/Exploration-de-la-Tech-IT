@@ -1,6 +1,6 @@
 # 🛡️ Sécurité de l'infrastructure système et réseau : le DevSecOps
 
-![Statut](https://img.shields.io/badge/Statut-Termin%C3%A9e-green?style=flat-square&logo=github)
+
 
 ## 📝 Contexte
 Cette veille technologique a été réalisée durant ma **formation bootcamp de 5 mois : Technicien Supérieur Système et Réseau**. 
@@ -256,4 +256,4 @@ C’est cette découverte que j’ai choisi de partager lors de ma présentation
 
 ---
 
-[![README](https://img.shields.io/badge/Back%20to-Exploration%20de%20la%20Tech%20IT-blue?style=social&logo=github)](/README.md)
+<p align="center">  <i>➡️ Back to <a href="/README.md">Main Page</a></i> | <i>📍 From <a href="https://github.com/SybillLabs">SybillLabs</a></i></p>
