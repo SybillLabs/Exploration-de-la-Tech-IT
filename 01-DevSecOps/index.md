@@ -256,4 +256,4 @@ C’est cette découverte que j’ai choisi de partager lors de ma présentation
 
 ---
 
-<p align="center">  <i>➡️ Back to <a href="/README.md">Main Page</a></i> | <i>📍 From <a href="https://github.com/SybillLabs">SybillLabs</a></i></p>
+<p align="center">  <i>↪️ Back to <a href="/README.md">Main Page</a></i> | <i>📍 From <a href="https://github.com/SybillLabs">SybillLabs</a></i></p>
